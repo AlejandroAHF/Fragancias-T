@@ -1,0 +1,28 @@
+/* En esta parte le quito todo el margen que trae por defecto y defino la tipografia*/
+* {
+    max-width: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --primary-black: #000000;
+    --secondary-black: #101010;
+    --primary-white: #ffffff;
+    --secondary--white: #f0f0f0;
+    --primary-pink: #efc3c5;
+    --primary-pista: #e2f2b0;
+}
+
+.bg-dark-black{
+    background: var(--primary-black);
+}
+
+.bg-light-black{
+    background: var(--secondary-black);
+}
+
+.main-container {
+    min-height: 100vh;
+}
