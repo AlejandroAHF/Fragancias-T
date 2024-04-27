@@ -1,28 +1,52 @@
-/* En esta parte le quito todo el margen que trae por defecto y defino la tipografia*/
-* {
-    max-width: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#fondo{
+    background-image: url(imagenes/sale\ perfume.png);
+    width: 100%; 
+    height: 600px; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    border: 1px;
+    border-color: black;
 }
 
-:root {
-    --primary-black: #000000;
-    --secondary-black: #101010;
-    --primary-white: #ffffff;
-    --secondary--white: #f0f0f0;
-    --primary-pink: #efc3c5;
-    --primary-pista: #e2f2b0;
+fieldset{
+    width: 25%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 
-.bg-dark-black{
-    background: var(--primary-black);
+img{
+    position: relative;
+    width: 100%;
+    height: 300px;
 }
 
-.bg-light-black{
-    background: var(--secondary-black);
+.catalogo{
+    display: flex;
+    justify-content:right;
 }
 
-.main-container {
-    min-height: 100vh;
+#encabezado_catalogo{
+    display: flex;
+    justify-content: right;
+}
+
+hr{
+    margin-top: 32px;
+    width: 40%;
+    height: 1px
+}
+
+#hr{
+    margin-top: 32px;
+    width: 35%;
+    height: 1px
+}
+
+button{
+    background-color:black;
+    color: white;
+    width: 100%;
 }
