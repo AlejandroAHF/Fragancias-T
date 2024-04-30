@@ -3,6 +3,23 @@
     justify-content: right;
 }
 
+#division_catalogo{
+    display: flex;
+    justify-content: right;
+}
+
+#hrch{
+    margin-top: 32px;
+    width: 28%;
+    height: 1px
+}
+
+hr{
+    margin-top: 32px;
+    width: 40%;
+    height: 1px
+}
+
 img{
     position: relative;
     width: 100%;

@@ -3,20 +3,31 @@
     justify-content: right;
 }
 
+#division_catalogo{
+    display: flex;
+    justify-content: right;
+}
+
+#hrch{
+    margin-top: 32px;
+    width: 28%;
+    height: 1px
+}
+
+hr{
+    margin-top: 32px;
+    width: 40%;
+    height: 1px
+}
+
 img{
     position: relative;
     width: 100%;
     height: 300px;
 }
 
-body{
-    background-image: url(imagenes/logo_empresa.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 button{
+    margin-top: 0 0 20px 0;
     color: white;
     background-color: black;
     width: 100%;
