@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRAGANCIA T</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="imagenes/logo-mejorado.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@700&family=Great+Vibes&family=Montserrat:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header > <!-- style="text-align: center;" -->
+        <div class="contenedor-prin">
+            <nav>
+                <h1>Fragancia  T</h1>
+                <ul class="menu">
+                    <li><a href="../index.html"><p class="p-nav">Inicio</p></a></li>
+                    <li>
+                        <a><p class="p-nav">Catalogos</p></a>
+                        <ul class="submenu">
+                            <li><a href="../catalogo_hombre.html"><p class="p-nav">Hombres</p></a></li>
+                            <li><a href="../catalogo_mujeres.html"><p class="p-nav">Mujeres</p></a></li>
+                            <li><a href="../catalogo_chamacos.html"><p class="p-nav">Niños</p></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../sobre-nosotros/sobre_nosotros.html"><p class="p-nav">Sobre Nosotros</p></a></li>
+                    <li><a href="../contacto/contactanos.html"><p class="p-nav">Contactanos</p></a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- <div id="fondo">
+            <img src="imagenes/logo_empresa.jpg" alt="archivo no cargado con exito" style="width: 100%; height: 600px;">
+        </div> -->
+    </header>
+
+    <section class= "contenido" style="margin-top: 20px;">
+        <div class="product">
+            <img src="imagenes/historia.jpg" alt="Nosotros">
+            <div class="nosotros-info">
+                <center>
+                <h2>Nuestra Historia</h2>
+                </center>
+                <p>Nuestra historia, la historia de FragranciaT, comienza con la necesidad de crear nuestro propio negocio, surgiendo así la idea de 3 jóvenes de vender lociones de calidad y precio para los salvadoreños.</p>
+                <p>Decidimos emprender con la misión de ofrecer productos que ayudaran económicamente al bolsillo de los salvadoreños y disfrutando de nuestras excelentesfragancias.</p>
+                <p>Nuestras lociones están formuladas con ingredientes cuidadosamente seleccionados para ofrecer beneficios reales y visibles para la piel. Desde el principio, nos hemos comprometido a utilizar ingredientes naturales y suaves, evitando componentes dañinos o irritantes.</p>
+                <p>En FraganciaT, creemos en el poder de la belleza natural y en el impacto positivo que puede tener en la vida de las personas. Nuestro objetivo es proporcionar a nuestros clientes una experiencia de cuidado de la piel que no solo sea efectiva, sino también indulgente y gratificante.</p>
+                <p>A través de nuestro emprendimiento, esperamos no solo satisfacer las necesidades de nuestros clientes, sino también inspirar confianza y autoestima en cada persona que utiliza nuestros productos. Para nosotros, cada loción que creamos es una oportunidad de hacer una diferencia positiva en la vida de alguien.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contenido" style="margin-top: 30px;">
+        <div class="product">
+            <img src="imagenes/misión.jpg" alt="Nosotros">
+            <div class="nosotros-info">
+                <center><h2>Nuestra Misión</h2></center>
+                <p>En nuestra empresa, nos comprometemos a crear fragancias excepcionales que cautiven los sentidos y evocan emociones únicas en cada persona. Nos esforzamos por ofrecer productos de la más alta calidad, utilizando ingredientes naturales y técnicas innovadoras, para brindar experiencias olfativas inolvidables que enriquezcan la vida de nuestros clientes aplicando nuestras fragancias. </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contenido" style="margin-top: 30px;">
+        <div class="product">
+            <img src="imagenes/visión.jpg" alt="Nosotros">
+            <div class="nosotros-info">
+                <center><h2>Nuestra Visión</h2></center>
+                <p>Ser una marca de aromas exclusivos y de alta calidad, que nuestra empresa sea reconocida por sus aromas y satisfacción de los clientes. Por supuesto, aquí tienes algunos valores que una empresa de perfumes podría adoptar para sus empleados y clientes: </p>
+            </div>
+        </div>
+        </section>
+    
+    <section class="contenido" style="margin-top: 30px;">
+        <div class="product">
+            <div class="nosotros-info">
+                <center><h2>Nuestro Equipo</h2></center>
+                <p>Nuestro equipo de trabajo esta conformado por 3 personas: Iván Calderón, Josue Benavides y Alejandro Hernandez.</p>
+                <p>Cada uno de los antes mencionados están comprometidos y dedicados a la elabocación de nuestros productos. Todos con el objetivo de satisfacer a los clientes de FraganciaT y dejar en ellos no solo un producto, sino también una experiencia a recordar.</p>
+            </div>
+        </div>
+    </section>
+    <section class="contenido" style="margin-top: 30px;">
+        <center><h2>Nosotros somos:</h2></center>
+        <div class="imagenes">
+          <img src="imagenes/Ivan1.jpeg".jpeg" alt="Imagen 1" style="width: 20%;" onclick="showDescription('Ivan')">
+          <img src="imagenes/mau.jpg" alt="Imagen 2" style="width: 20%;" onclick="showDescription('Mauricio')">
+          <img src="Img/dayana.jpeg" alt="Imagen 3" style="width: 20%;" onclick="showDescription('Alejandro')">
+        </div>
+        <div id="description"></div>
+      </section>      
+      <script>
+        function showDescription(name) {
+          var description = "";
+          switch (name) {
+            case "Ivan":
+              description = "Ivan Calderón es un ingeniero de software con más de 5 años de experiencia.";
+              break;
+            case "Mauricio":
+              description = "Josue Benavides un diseñador gráfico con más de 5 años de experiencia.";
+              break;
+            case "Alejandro":
+              description = "Alejandro Hernandez es un programador fullstack.";
+              break;
+          }
+          document.getElementById("description").innerHTML = description;
+        }
+        </script>
+        
+    <footer>
+        <p>¡Una empresa que piensa en ti!</p>
+    </footer>
+</body>
+
+</html>

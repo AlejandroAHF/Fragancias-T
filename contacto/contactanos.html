@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacatanos</title>
-</head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FRAGANCIA T</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="icon" href="imagenes/logo-mejorado.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@700&family=Great+Vibes&family=Montserrat:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+    </head>
+
 <body>
-    <h1>siiu</h1>
+    <header >
+        <div class="contenedor-prin">
+            <nav>
+                <h1>Fragancia  T</h1>
+                <ul class="menu">
+                    <li><a href="../index.html"><p class="p-nav">Inicio</p></a></li>
+                    <li>
+                        <a><p class="p-nav">Catalogos</p></a>
+                        <ul class="submenu">
+                            <li><a href="../catalogo_hombre.html"><p class="p-nav">Hombres</p></a></li>
+                            <li><a href="../catalogo_mujeres.html"><p class="p-nav">Mujeres</p></a></li>
+                            <li><a href="../catalogo_chamacos.html"><p class="p-nav">Niños</p></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../sobre-nosotros/sobre_nosotros.html"><p class="p-nav">Sobre Nosotros</p></a></li>
+                    <li><a href="../contacto/contactanos.html"><p class="p-nav">Contactanos</p></a></li>
+                </ul>
+            </nav>
+        </div>
+       
+    </header>
+    <br>
+    <div class="contact-container">
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <br>
+    <footer>
+        <p>&copy; 2024 FraganciaT. Todos los derechos reservados</p>
+            <div id="parte1">
+            <div id="Footer1">
+            <h3>Acerca de la empresa</h3>
+            <p>Acerca de nosotros</p>
+            <p>Contactenos</p>
+            <p>Terminos y condiciones</p>
+            <p>Politica y privacidad</p>
+            </div>
+            <div id="Footer2">
+            <h3>Mas informacion</h3>
+            <img src="img/facebook.png" alt="facebook">
+            <img src="img/instagran.png" alt="Instagram">
+            <img src="img/x.png" alt="X">
+            <img src="img/whatsapp.png" alt="Whatsapp">
+            </div>
+            </div>
+
+    </footer>
 </body>
+
 </html>
