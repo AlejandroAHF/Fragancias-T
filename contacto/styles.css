@@ -238,10 +238,7 @@ footer {
 #Footer2{
         text-align: right;
 }
-img{
-        height: 100px;
-        width: 100px;
-}
+
 #parte1{
         display: flex;
         justify-content: center;
