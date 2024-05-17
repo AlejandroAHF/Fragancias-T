@@ -206,3 +206,23 @@ a{
     text-decoration: none;
     color: black;
 }
+footer {
+    background-color:  rgb(66, 63, 64);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+#Footer1{
+    text-align: left;
+    }
+#Footer2{
+        text-align: right;
+}
+img{
+        height: 100px;
+        width: 100px;
+}
+#parte1{
+        display: flex;
+        justify-content: center;
+}
