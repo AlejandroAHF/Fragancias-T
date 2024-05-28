@@ -187,15 +187,16 @@ footer {
     padding: 10px 0;
 }
 #Footer1{
-    text-align: left;
-    }
+    margin-left: 25%;
+}
+
 #Footer2{
-        text-align: right;
+    margin-left: 22%;
 }
 
 #parte1{
-        display: flex;
-        justify-content: center;
+    display: flex;
+    justify-content: left;
 }
 
 .footer-img {

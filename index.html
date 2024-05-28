@@ -52,32 +52,36 @@
         <hr id="hr">
     </div>
     <div class="catalogo">
-        <fieldset style="background-color: white;"><img src="imagenes/locion hombres/losion11.png" alt="archivo no encontrado"><br><br>Nombre: AZZARO<br><br>Descripcion: Perfume para hombres con agallas<br><br>Precio: $14.99<br><br><button>Comprar</button></fieldset>
-        <fieldset style="background-color: white;"><img src="imagenes/locion mujeres/locion m5.png" alt="archivo no encontrado"><br><br>Nombre: POISON<br><br>Descripcion: Perfume para la mujer mas delicada<br><br>Precio: $15.99<br><br><button>Comprar</button></fieldset>
-        <fieldset style="background-color: white;"><img src="imagenes/locion mujeres/locion m9.png" alt="archivo no encontrado"><br><br>Nombre: POSSESS<br><br>Descripcion: Perfume que realaza tu atractivo<br><br>Precio: $15.50<br><br><button>Comprar</button></fieldset>
-        <fieldset style="background-color: white;"><img src="imagenes/img-niños/l15.png" alt="archivo no encontrado"><br><br>Nombre: GIVENCHY<br><br>Descripcion: Perfume para el mas lindo del hogar<br><br>Precio: $10.50<br><br><button>Comprar</button></fieldset>
+        <fieldset style="background-color: white;"><img src="imagenes/locion hombres/losion11.png" alt="archivo no encontrado"><br><br>Nombre: AZZARO<br><br>Descripcion: Perfume para hombres con agallas<br><br>Precio: $14.99<br><br><button onclick="formulario()">Comprar</button></fieldset>
+        <fieldset style="background-color: white;"><img src="imagenes/locion mujeres/locion m5.png" alt="archivo no encontrado"><br><br>Nombre: POISON<br><br>Descripcion: Perfume para la mujer mas delicada<br><br>Precio: $15.99<br><br><button onclick="formulario()">Comprar</button></fieldset>
+        <fieldset style="background-color: white;"><img src="imagenes/locion mujeres/locion m9.png" alt="archivo no encontrado"><br><br>Nombre: POSSESS<br><br>Descripcion: Perfume que realaza tu atractivo<br><br>Precio: $15.50<br><br><button onclick="formulario()">Comprar</button></fieldset>
+        <fieldset style="background-color: white;"><img src="imagenes/img-niños/l15.png" alt="archivo no encontrado"><br><br>Nombre: GIVENCHY<br><br>Descripcion: Perfume para el mas lindo del hogar<br><br>Precio: $10.50<br><br><button onclick="formulario()">Comprar</button></fieldset>
     </div>
     <footer>
         <p>&copy; 2024 FraganciaT. Todos los derechos reservados</p>
             <div id="parte1">
-            <div id="Footer1">
-            <h3>Acerca de la empresa</h3>
-            <p>Acerca de nosotros</p>
-            <p>Contactenos</p>
-            <p>Terminos y condiciones</p>
-            <p>Politica y privacidad</p>
-            </div>
-            <div id="Footer2">
-            <h3>Mas informacion</h3>
-            <img class="footer-img" src="footer/facebook.png" alt="facebook">
-            <img class="footer-img" src="footer/instagran.png" alt="Instagram">
-            <img class="footer-img" src="footer/x.png" alt="X">
-            <img class="footer-img" src="footer/whatsapp.png" alt="Whatsapp">
-            </div>
+                <div id="Footer1">
+                    <h3>Acerca de la empresa</h3>
+                    <p>Acerca de nosotros</p>
+                    <p>Contactenos</p>
+                    <p>Terminos y condiciones</p>
+                    <p>Politica y privacidad</p>
+                </div>
+                <div id="Footer2">
+                    <h3>Mas informacion</h3>
+                    <a href="https://www.facebook.com/?locale=es_LA"><img class="footer-img" src="footer/facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com"><img class="footer-img" src="footer/instagran.png" alt="Instagram"></a>
+                    <a href="https://x.com/?lang=es&mx=2"><img class="footer-img" src="footer/x.png" alt="X"></a>
+                    <a href="https://web.whatsapp.com"><img class="footer-img" src="footer/whatsapp.png" alt="Whatsapp"></a>
+                </div>
             </div>
 
     </footer>
 </body>
-</body>
 </html>
+<script>
+    function formulario(){
+        location.href = "formulario/formulario_compra.html"
+    }
+</script>
 
