@@ -12,6 +12,7 @@ body {
   border-radius: 40px;
   padding: 5px;
   height: 70px;
+  margin: 15px 30px 0px 30px;
 }
 
 .p-nav {
@@ -330,18 +331,24 @@ a {
     padding: 10px 0;
 }
 #Footer1{
-    text-align: left;
-    }
+  margin-left: 25%;
+}
+
 #Footer2{
-        text-align: right;
+  margin-left: 22%;
 }
 
 #parte1{
-        display: flex;
-        justify-content: center;
+  display: flex;
+  justify-content: left;
 }
 
 .footer-img {
   width: 50px;
   height: 50px;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
 }
