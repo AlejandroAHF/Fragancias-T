@@ -10,6 +10,12 @@ body {
 header{
     margin: 40px 0 40px 0;
 }
+
+.h3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
  
 .navbar {
     position: fixed;
@@ -33,13 +39,16 @@ header{
 }
 
 img{
+    border-radius: 10px;
     position: relative;
     width: 100%;
     height: 300px;
 }
 
 .card{
-    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo con transparencia */
+    border: none;
+    background-color: #6ACFC7;
+    color: #0C1A1A;
     padding: 20px;
 }
 
@@ -111,4 +120,10 @@ footer{
     width: 50px; /* Ajusta el tamaño de los iconos según sea necesario */
     height: 50px;
     margin-right: 55px; /* Espacio entre los iconos */
+}
+
+.card-body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
