@@ -75,7 +75,7 @@ body {
       border-radius: 2rem;
       background-color: honeydew;
       height: 2.5rem;
-      overflow: hidden; /*sirve para ocultar un elemento para que no se vea más alla de los limites*/
+      overflow: hidden; 
   }
   .busqueda input{
       outline: none;

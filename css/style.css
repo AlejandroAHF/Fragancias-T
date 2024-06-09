@@ -117,9 +117,9 @@ footer{
 }
 
 .footer-img{
-    width: 50px; /* Ajusta el tamaño de los iconos según sea necesario */
+    width: 50px; 
     height: 50px;
-    margin-right: 55px; /* Espacio entre los iconos */
+    margin-right: 55px; 
 }
 
 .card-body {
