@@ -4,35 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FRAGANCIA T</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.3/assets/css/docs.css">
+    <link rel="stylesheet" href="css/style.css"> 
     <link rel="icon" href="imagenes/logo-mejorado.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@700&family=Great+Vibes&family=Montserrat:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <header > <!-- style="text-align: center;" -->
-        <div class="contenedor-prin">
-            <nav>
-                <h1>Fragancia  T</h1>
-                <ul class="menu">
-                    <li><a href="index.html"><p class="p-nav">Inicio</p></a></li>
-                    <li>
-                        <a><p class="p-nav">Catalogos</p></a>
-                        <ul class="submenu">
-                            <li><a href="catalogo_hombre.html"><p class="p-nav">Hombres</p></a></li>
-                            <li><a href="catalogo_mujeres.html"><p class="p-nav">Mujeres</p></a></li>
-                            <li><a href="catalogo_chamacos.html"><p class="p-nav">Niños</p></a></li>
-                        </ul>
-                    </li>
-                    <li><a href="sobre-nosotros/sobre_nosotros.html"><p class="p-nav">Sobre Nosotros</p></a></li>
-                    <li><a href="contacto/contactanos.html"><p class="p-nav">Contactanos</p></a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- <div id="fondo">
-            <img src="imagenes/logo_empresa.jpg" alt="archivo no cargado con exito" style="width: 100%; height: 600px;">
-        </div> -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-xl-3 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Catalogos</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="catalogo_hombre.html">Catalogo de Hombre</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="catalogo_mujeres.html">Catalogo de Mujer</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="catalogo_chamacos.html">Catalogo de Niño</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre-nosotros/sobre_nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto/contactanos.html">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <br>
@@ -42,40 +49,97 @@
         <hr>
     </div>
     <div class="catalogo">
-        <fieldset id="fieldset"><a href="catalogo_hombre.html"><h3>Catalogo de Hombres</h3><img src="imagenes/hombre.png" alt="archivo no encontrado"></a></fieldset>
-        <fieldset id="fieldset"><a href="catalogo_mujeres.html"><h3>Catalogo de Mujeres</h3><img src="imagenes/mujer.png" alt="archivo no encontrado"></a></fieldset>
-        <fieldset id="fieldset"><a href="catalogo_chamacos.html"><h3>Catalogo de Niños</h3><img src="imagenes/chamaco.png" alt="archivo no encontrado"></a></fieldset>
+        <div class="card" style="width: 18rem; margin-right: 8%;">
+            <a href="catalogo_hombre.html"><h3 class="color-c">Catalogo de Hombres</h3><img src="imagenes/hombre.png" alt="archivo no encontrado"></a>
+        </div>
+        <div class="card" style="width: 18rem; margin-right: 8%;">
+            <a href="catalogo_mujeres.html"><h3 class="color-c">Catalogo de Mujeres</h3><img src="imagenes/mujer.png" alt="archivo no encontrado"></a>
+        </div>
+        <div class="card" style="width: 18rem; margin-right: 8%;">
+            <a href="catalogo_chamacos.html"><h3 class="color-c">Catalogo  de  <br>Niños</h3><img src="imagenes/niño.png" alt="archivo no encontrado"></a>
+        </div>
     </div>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/image.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
     <div id="encabezado_catalogo">
         <hr id="hr">
         <h2>Productos mas populares</h2>
         <hr id="hr">
     </div>
-    <div class="catalogo">
-        <fieldset style="background-color: white;"><img src="imagenes/locion hombres/losion11.png" alt="archivo no encontrado"><br><br>Nombre: AZZARO<br><br>Descripcion: Perfume para hombres con agallas<br><br>Precio: $14.99<br><br><button onclick="formulario()">Comprar</button></fieldset>
-        <fieldset style="background-color: white;"><img src="imagenes/locion mujeres/locion m5.png" alt="archivo no encontrado"><br><br>Nombre: POISON<br><br>Descripcion: Perfume para la mujer mas delicada<br><br>Precio: $15.99<br><br><button onclick="formulario()">Comprar</button></fieldset>
-        <fieldset style="background-color: white;"><img src="imagenes/locion mujeres/locion m9.png" alt="archivo no encontrado"><br><br>Nombre: POSSESS<br><br>Descripcion: Perfume que realaza tu atractivo<br><br>Precio: $15.50<br><br><button onclick="formulario()">Comprar</button></fieldset>
-        <fieldset style="background-color: white;"><img src="imagenes/img-niños/l15.png" alt="archivo no encontrado"><br><br>Nombre: GIVENCHY<br><br>Descripcion: Perfume para el mas lindo del hogar<br><br>Precio: $10.50<br><br><button onclick="formulario()">Comprar</button></fieldset>
+    <div class="catalogo promos">
+        <div class="card" style="width: 18rem; margin-right: 8%;">
+            <img src="imagenes/locion hombres/losion11.png" class="card-img-top" alt="archivo no encontrado">
+            <div class="card-body">
+                <b>Nombre:</b> AZZARO<br><br><b>Descripcion:</b> Perfume para hombres con agallas<br><br><b>Precio:</b>  $14.99<br>
+                <button class="btn btn-dark" style="margin-top: 28%;" onclick="formulario()">Comprar</button>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin-right: 8%;">
+            <img src="imagenes/locion mujeres/locion m9.png" class="card-img-top" alt="archivo no encontrado">
+            <div class="card-body">
+                <b>Nombre:</b> POSSESS<br><br><b>Descripcion:</b> Perfume que realaza tu atractivo<br><br><b>Precio:</b> $15.50<br>
+                <button class="btn btn-dark" style="margin-top: 28%;" onclick="formulario()">Comprar</button>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; margin-right: 8%;">
+            <img src="imagenes/img-niños/l15.png" class="card-img-top" alt="archivo no encontrado">
+            <div class="card-body">
+                <b>Nombre:</b> GIVENCHY<br><br><b>Descripcion:</b> Perfume para el mas lindo del hogar<br><br><b>Precio:</b> $10.50<br>
+                <button class="btn btn-dark" style="margin-top: 28%;" onclick="formulario()">Comprar</button>
+            </div>
+        </div>
     </div>
     <footer>
-        <p>&copy; 2024 FraganciaT. Todos los derechos reservados</p>
-            <div id="parte1">
-                <div id="Footer1">
-                    <h3>Acerca de la empresa</h3>
-                    <p>Acerca de nosotros</p>
-                    <p>Contactenos</p>
-                    <p>Terminos y condiciones</p>
-                    <p>Politica y privacidad</p>
-                </div>
-                <div id="Footer2">
-                    <h3>Mas informacion</h3>
-                    <a href="https://www.facebook.com/?locale=es_LA"><img class="footer-img" src="footer/facebook.png" alt="facebook"></a>
-                    <a href="https://www.instagram.com"><img class="footer-img" src="footer/instagran.png" alt="Instagram"></a>
-                    <a href="https://x.com/?lang=es&mx=2"><img class="footer-img" src="footer/x.png" alt="X"></a>
-                    <a href="https://web.whatsapp.com"><img class="footer-img" src="footer/whatsapp.png" alt="Whatsapp"></a>
-                </div>
+        <div class="container d-flex justify-content-between align-items-center footer-container">
+            <a href="#" class="logo-empresa">
+                <img id="logo-footer" src="imagenes/logo-empresa.ico" alt="logo-empresa">
+            </a>
+            <div class="link-column d-flex flex-column">
+                <h4 class="color">Empresa</h4>
+                <a href="sobre-nosotros/sobre_nosotros.html#historia" class="hover-link">Nuestra Historia</a>
+                <a href="sobre-nosotros/sobre_nosotros.html#mision" class="hover-link">Misión</a>
             </div>
+            <div class="link-column d-flex flex-column">
+                <a href="sobre-nosotros/sobre_nosotros.html#visionn" class="hover-link">Vision</a>
+                <a href="sobre-nosotros/sobre_nosotros.html#nosotros" class="hover-link">Nosotros</a>
+                <p class="color">&copy; 2024 FraganciaT. Todos los derechos reservados</p>
 
+            </div>
+            <div class="d-flex align-items-center">
+                <a href="https://www.facebook.com/?locale=es_LA"><img class="footer-img" src="footer/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com"><img class="footer-img" src="footer/instagran.png" alt="Instagram"></a>
+                <a href="https://x.com/?lang=es&mx=2"><img class="footer-img" src="footer/x.png" alt="X"></a>
+                <a href="https://web.whatsapp.com"><img class="footer-img" src="footer/whatsapp.png" alt="Whatsapp"></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
@@ -84,4 +148,3 @@
         location.href = "formulario/formulario_compra.html"
     }
 </script>
-

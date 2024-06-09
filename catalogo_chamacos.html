@@ -4,47 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalago de niños</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.3/assets/css/docs.css">
     <link rel="stylesheet" href="css/catalogo_chamacos.css">
     <link rel="icon" href="imagenes/logo-mejorado.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@700&family=Great+Vibes&family=Montserrat:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body background="imagenes/fondo-acuarela-azul-rosa.avif" style="background-repeat: no-repeat; background-size:cover; background-attachment:fixed;">
-    <header > <!-- style="text-align: center;" -->
-        <div class="contenedor-prin">
-            <nav>
-                <h1>Fragancia  T</h1>
-                <ul class="menu">
-                    <li><a href="index.html"><p class="p-nav">Inicio</p></a></li>
-                    <li>
-                        <a><p class="p-nav">Catalogos</p></a>
-                        <ul class="submenu">
-                            <li><a href="catalogo_hombre.html"><p class="p-nav">Hombres</p></a></li>
-                            <li><a href="catalogo_mujeres.html"><p class="p-nav">Mujeres</p></a></li>
-                            <li><a href="catalogo_chamacos.html"><p class="p-nav">Niños</p></a></li>
-                        </ul>
-                    </li>
-                    <li><a href="sobre-nosotros/sobre_nosotros.html"><p class="p-nav">Sobre Nosotros</p></a></li>
-                    <li><a href="contacto/contactanos.html"><p class="p-nav">Contactanos</p></a></li>
-                </ul>
-            </nav>
-        </div>
+<body>
+    <header >
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-xl-3 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Catalogos</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="catalogo_hombre.html">Catalogo de Hombre</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="catalogo_mujeres.html">Catalogo de Mujer</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="catalogo_chamacos.html">Catalogo de Niño</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre-nosotros/sobre_nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto/contactanos.html">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    
+    <br>
     <div class="row" id="division_catalogo">
-        <div class="col-md-2">
-            <hr id="hrch">
-        </div>
-        <div class="col-md-8">
+        <div class="col-md-12">
             <h1 class="col-md-12">Bienvenid@ al catalogo de Niños</h1>
         </div>
-        <div class="col-md-2">
-            <hr id="hrch">
-        </div>
     </div>
-    <div class="contenedor">
+    <div class="contenedor espacio">
         <div class="card" style="width: 18rem; margin-right: 8%;">
             <img src="imagenes/img-niños/l2.png" class="card-img-top" alt="archivo no encontrado">
             <div class="card-body">
@@ -67,7 +70,7 @@
             </div>
         </div>      
     </div>
-    <div class="contenedor">
+    <div class="contenedor espacio">
         <div class="card" style="width: 18rem; margin-right: 8%;">
             <img src="imagenes/img-niños/l1.png" class="card-img-top" alt="archivo no encontrado">
             <div class="card-body">
@@ -89,19 +92,13 @@
                 <button class="btn btn-dark" style="margin-top: 19%;" onclick="formulario()">Comprar</button>
             </div>
         </div>        
-    </div>
+    </div><br>
     <div class="row" id="division_catalogo">
-        <div class="col-md-4">
-            <hr id="hrch">
-        </div>
-        <div class="col-md-4">
+        <div class="col-md-12">
             <h1 class="col-md-12">Promociones</h1>
         </div>
-        <div class="col-md-4">
-            <hr id="hrch">
-        </div>
     </div>  
-    <div class="contenedor">
+    <div class="contenedor espacio">
         <div class="card" style="width: 18rem; margin-right: 8%;">
             <img src="imagenes/img-niños/l1.png" class="card-img-top" alt="archivo no encontrado">
             <div class="card-body">
@@ -118,30 +115,35 @@
         </div>
         <div class="card" style="width: 18rem; margin-right: 8%;">
             <img src="imagenes/img-niños/l8.png" class="card-img-top" alt="archivo no encontrado">
-            <div class="card-body">
+            <div class="card-body ">
                 <b>Nombre:</b> Brillito de Luna y Mariposa<br><br><b>Descripcion:</b> Deja que la piel de tu pequeño brille con esta loción mágica. 50ml<br><br><b>Precio:</b> $8.99<br><br><b>Promocion:</b> 3 X 25.99<br><br>
                 <button class="btn btn-dark" style="margin-top: 9%;" onclick="formulario()">Comprar</button>
             </div>
         </div>      
     </div>
     <footer>
-        <p>&copy; 2024 FraganciaT. Todos los derechos reservados</p>
-            <div id="parte1">
-                <div id="Footer1">
-                    <h3>Acerca de la empresa</h3>
-                    <p>Acerca de nosotros</p>
-                    <p>Contactenos</p>
-                    <p>Terminos y condiciones</p>
-                    <p>Politica y privacidad</p>
-                </div>
-                <div id="Footer2">
-                    <h3>Mas informacion</h3>
-                    <a href="https://www.facebook.com/?locale=es_LA"><img class="footer-img" src="footer/facebook.png" alt="facebook"></a>
-                    <a href="https://www.instagram.com"><img class="footer-img" src="footer/instagran.png" alt="Instagram"></a>
-                    <a href="https://x.com/?lang=es&mx=2"><img class="footer-img" src="footer/x.png" alt="X"></a>
-                    <a href="https://web.whatsapp.com"><img class="footer-img" src="footer/whatsapp.png" alt="Whatsapp"></a>
-                </div>
+        <div class="container d-flex justify-content-between align-items-center footer-container">
+            <a href="#" class="logo-empresa">
+                <img id="logo-footer" src="imagenes/logo-empresa.ico" alt="logo-empresa">
+            </a>
+            <div class="link-column d-flex flex-column">
+                <h4>Empresa</h4>
+                <a href="sobre-nosotros/sobre_nosotros.html#historia" class="hover-link letra">Nuestra Historia</a>
+                <a href="sobre-nosotros/sobre_nosotros.html#mision" class="hover-link letra">Misión</a>
             </div>
+            <div class="link-column d-flex flex-column">
+                <a href="sobre-nosotros/sobre_nosotros.html#visionn" class="hover-link letra">Vision</a>
+                <a href="sobre-nosotros/sobre_nosotros.html#nosotros" class="hover-link letra">Nosotros</a>
+                <p>&copy; 2024 FraganciaT. Todos los derechos reservados</p>
+
+            </div>
+            <div class="d-flex align-items-center">
+                <a href="https://www.facebook.com/?locale=es_LA"><img class="footer-img" src="footer/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com"><img class="footer-img" src="footer/instagran.png" alt="Instagram"></a>
+                <a href="https://x.com/?lang=es&mx=2"><img class="footer-img" src="footer/x.png" alt="X"></a>
+                <a href="https://web.whatsapp.com"><img class="footer-img" src="footer/whatsapp.png" alt="Whatsapp"></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
