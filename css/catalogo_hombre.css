@@ -30,19 +30,13 @@ header{
 .contenedor{
     margin: auto;
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 .card{
-<<<<<<< HEAD
-  border: none;
-  background-color: #6ACFC7;
-  color: #0C1A1A;
-=======
   background-color: #f2e9eb;
   color: #31383f;
   border: none;
->>>>>>> 3e7a0dc5ab88923858b1ebc1dda2618dc85844f4
 }
 
 .col-md-12{
