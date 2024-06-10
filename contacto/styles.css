@@ -1,8 +1,8 @@
 
         
 body {
-    background-color: #6ACFC7;
-    color: #6ACFC7;
+  color: #31383f;
+  background-color: #f2e9eb;
     margin: 0;
     padding: 0;
 }
@@ -65,7 +65,7 @@ h1 {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #0C1A1A;
+    background-color: #dd8ea4;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }

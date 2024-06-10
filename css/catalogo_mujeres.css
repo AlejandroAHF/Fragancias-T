@@ -1,6 +1,6 @@
 body{
-  color: #0C1A1A;
-  background-color: #6ACFC7;
+  color: #d42c5b;
+  background-color: #f2e9eb;
   margin: 0%;
   padding: 0%;
 }
@@ -41,8 +41,8 @@ header{
 
 .card{
   border: none;
-  background-color: #6ACFC7;
-  color: #0C1A1A;
+  background-color: #f2e9eb;
+  color: #31383f;
 }
 
 .col-md-12{
