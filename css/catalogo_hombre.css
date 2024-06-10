@@ -1,10 +1,22 @@
+/*contador*/
+#contador-visitas {
+  width: 100px; 
+  height: auto; 
+  margin: 0 auto; 
+  text-align: center; 
+}
+
+#contador-visitas img {
+  width: 100%; 
+  height: auto; 
+}
+
 body{
   color: #d42c5b;
   background-color: #f2e9eb;
   margin: 0%;
   padding: 0%;
 }
-
 
 .navbar {
     position: fixed;

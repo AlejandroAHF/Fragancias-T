@@ -1,4 +1,15 @@
+/*contador*/
+#contador-visitas {
+  width: 100px; 
+  height: auto; 
+  margin: 0 auto; 
+  text-align: center; 
+}
 
+#contador-visitas img {
+  width: 100%; 
+  height: auto; 
+}
         
 body {
   color: #31383f;
