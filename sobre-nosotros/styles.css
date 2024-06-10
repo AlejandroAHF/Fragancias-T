@@ -186,11 +186,11 @@ body {
 
 /* Footer */
 footer{
-  color: #6ACFC7;
-  height: 200px;
+  height: 300px;
   text-align: center;
   padding-block: 0;
   background-color: #0C1A1A;
+  color: #6ACFC7;  
 }
 
 #logo-footer{
@@ -203,7 +203,11 @@ footer{
   gap: 20px;
 }
 
-a {
+h4{
+  padding-top: 8%;
+}
+
+a{
   color: #6ACFC7;
   text-decoration: none;
   transition: color 0.3s ease;

@@ -33,12 +33,6 @@ header{
     justify-content: right;
 }
 
-#division_catalogo{
-    display: inline-flex;
-    text-align: center;
-    margin: auto;
-}
-
 .card{
   border: none;
   background-color: #6ACFC7;
@@ -65,7 +59,7 @@ img{
 
 /* Footer */
 footer{
-    height: 150px;
+    height: 300px;
     text-align: center;
     padding-block: 0;
     background-color: #0C1A1A;
@@ -82,6 +76,10 @@ footer{
     gap: 20px;
   }
   
+  h4{
+    padding-top: 8%;
+  }
+
   a{
     color: #6ACFC7;
     text-decoration: none;

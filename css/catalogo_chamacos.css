@@ -5,56 +5,45 @@ body{
   padding: 0%;
 }
 
-.letra{
-  color: #6ACFC7;
-}
-
-.fondo{
-  color: #0C1A1A;
-}
 
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .container-fluid{
-  font-size: 20px;
-  padding:0 0 0 40px;
-  height: 50px;
+    font-size: 20px;
+    padding:0 0 0 40px;
+    height: 50px;
 }
 
 .navbar-nav .nav-item {
-  margin-right: 40px; 
+    margin-right: 40px; 
 }
-
+  
 header{
-margin: 80px 0 20px 0;
+  margin: 80px 0 20px 0;
 }
 
 .contenedor{
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin: auto;
     display: flex;
     justify-content: right;
-}
-
-#division_catalogo{
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-button{
-    width: 100%;
 }
 
 .card{
   border: none;
   background-color: #6ACFC7;
   color: #0C1A1A;
+}
+
+.col-md-12{
+  margin: 40px 0 10px 0;
+}
+button{
+    width: 100%;
 }
 
 img{
@@ -65,17 +54,16 @@ img{
 }
 
 .espacio{
-    margin: 0 0 40px 0;
+  margin: 0 0 40px 0;
 }
-
 
 /* Footer */
 footer{
-  color: #6ACFC7;
-    height: 150px;
+    height: 300px;
     text-align: center;
     padding-block: 0;
     background-color: #0C1A1A;
+    color: #6ACFC7;  
   }
   
   #logo-footer{
@@ -88,7 +76,11 @@ footer{
     gap: 20px;
   }
   
-  a {
+  h4{
+    padding-top: 8%;
+  }
+
+  a{
     color: #6ACFC7;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -105,10 +97,3 @@ footer{
     height: 50px;
     margin-right: 55px;   
   }
-
-  .card-body {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
